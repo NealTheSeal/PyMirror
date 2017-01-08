@@ -1,0 +1,15 @@
+{% load staticfiles %}
+<html>
+	<head>
+		<meta charset="utf-8">
+		
+		<title>PyMirror</title>
+		
+		<!--<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400&subset=latin,latin-ext" rel="stylesheet" type="text/css">-->
+		<link rel="stylesheet" href="{% static 'style.css' %}">
+	</head>
+	<body>
+		<div id="time">{{time}}</div>
+		<div id="calendar">{{calendar | safe}}</div>
+	</body>
+</html>
