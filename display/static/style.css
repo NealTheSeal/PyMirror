@@ -7,32 +7,43 @@
 body {
 	background-color: #000000;
 	color: #ffffff;
-	font-family: 'monospace';
-	font-size: 20px;
+	font-family: 'VT323';
+	font-size: 60px;
 	height: 100%;
 	/*overflow: hidden;*/
 	-webkit-font-smoothing: antialiased;
+}
+
+#date {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin-top: 20px;
+	margin-left: 20px;
 }
 
 #calendar {
 	padding: 15;
 }
 
-/*#date {
-	font-size: 30px;
+#time {
+	text-align: center;
+	font-size: 60;
 }
 
-#time {
-	font-size: 85px;
-	font-weight: 300;
-	margin-bottom: 10px;
+#weather {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	margin-top: 20px;
+	margin-right: 20px;
 }
 
 #month {
-	position: absolute;
+	font-size: 40;
 }
 
-.week {
+/*.week {
 	display: block;
 	height: 50px;
 }
@@ -61,17 +72,9 @@ body {
 	text-align: right;
 	background-color: #f0f0f0;
 	color: #000000;
-}
+}*/
 
-#weather {
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	margin-top: 20px;
-	margin-right: 20px;
-}
-
-#wind {
+/*#wind {
 	font-size: 30px;
 	text-align: right;
 }
